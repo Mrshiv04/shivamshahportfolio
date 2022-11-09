@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/Header';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -7,7 +8,21 @@ export default function Home() {
 			<Head>
 				<title>Shivam Shah 2.0</title>
 			</Head>
-			<h1 className='p-10 text-red-500'>Hello</h1>
+
+			<Header />
+			{/* Header */}
+
+			{/* Hero */}
+
+			{/* About */}
+
+			{/* Experience */}
+
+			{/* Skills */}
+
+			{/* Projects */}
+
+			{/* Contact */}
 		</div>
 	);
 }
