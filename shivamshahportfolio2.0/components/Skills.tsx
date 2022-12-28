@@ -4,6 +4,53 @@ import Skill from './Skill';
 
 type Props = {};
 
+var js = {
+	source:
+		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+	rating: '85',
+};
+
+var react = {
+	source: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+	rating: '90',
+};
+
+var typescript = {
+	source:
+		'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+	rating: '70',
+};
+
+var html = {
+	source:
+		'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
+	rating: '90',
+};
+
+var css = {
+	source:
+		'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+	rating: '85',
+};
+
+var mysql = {
+	source:
+		'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
+	rating: '75',
+};
+
+var redux = {
+	source:
+		'https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg',
+	rating: '80',
+};
+
+var python = {
+	source:
+		'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+	rating: '70',
+};
+
 function Skills({}: Props) {
 	return (
 		<motion.div
@@ -26,14 +73,14 @@ function Skills({}: Props) {
 			</h2>
 
 			<div className='grid grid-cols-4 gap-5'>
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
+				<Skill {...js} />
+				<Skill {...react} />
+				<Skill {...typescript} />
+				<Skill {...redux} />
+				<Skill {...mysql} />
+				<Skill {...html} />
+				<Skill {...css} />
+				<Skill {...python} />
 			</div>
 		</motion.div>
 	);
