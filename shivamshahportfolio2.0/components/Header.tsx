@@ -72,12 +72,19 @@ function Header({}: Props) {
 			>
 				<SocialIcon
 					className='cursor-pointer'
-					network='email'
+					network='sharethis'
 					fgColor='gray'
 					bgColor='transparent'
+					url='https://drive.google.com/file/d/11wRFeuU06YvvdTz_CnAS_VZ4WgTrcaRM/view?usp=share_link'
+					target={'_blank'}
 				/>
 				<p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
-					Get in touch
+					<a
+						href='https://drive.google.com/file/d/11wRFeuU06YvvdTz_CnAS_VZ4WgTrcaRM/view?usp=share_link'
+						target={'_blank'}
+					>
+						Download CV
+					</a>
 				</p>
 			</motion.div>
 			{/* </Link> */}

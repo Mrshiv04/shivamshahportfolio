@@ -41,10 +41,10 @@ function About({}: Props) {
 					I’m Shivam a maker with an education in engineering in Computer
 					Science & Engineering and a passion for experimenting, learning new
 					skills and building cool things. An energetic and hardworking
-					professional having knowledge of JavaScript, ReactJs, Core Java,
-					HTML,MongoDB and MySQL with experience of 5 years and want to work in
-					a challenging environment, open to learning new skills and using new
-					systems involved in mentioned area. I have extremely good problem
+					professional having knowledge of JavaScript, ReactJs, Typescript,
+					HTML, CSS, MySQL and Redux with experience of 5 years and want to work
+					in a challenging environment, open to learning new skills and using
+					new systems involved in mentioned area. I have extremely good problem
 					solving skills and good knowledge of OOPs concept. I can take a bullet
 					for a plate of Chicken Biryani!
 				</p>

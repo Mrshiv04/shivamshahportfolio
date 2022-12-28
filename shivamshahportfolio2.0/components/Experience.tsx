@@ -59,7 +59,7 @@ var obj3 = {
 	started: 'July 2021',
 	ended: 'Present',
 	projects: [
-		'Currently working as a ReactJs developer for multiple clients across different domains like FMCG, Automotive, Aerospace, handling compleyte UI activities including requirement gathering, development, testing and maintaining.',
+		'Currently working as a ReactJs developer for multiple clients across different domains like FMCG, Automotive, Aerospace, handling complete UI activities including requirement gathering, development, testing and maintaining.',
 	],
 };
 
