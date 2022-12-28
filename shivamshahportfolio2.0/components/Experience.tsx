@@ -4,6 +4,65 @@ import { motion } from 'framer-motion';
 
 type Props = {};
 
+var obj1 = {
+	companyLogo: 'https://st1.bgr.in/wp-content/uploads/2015/10/infosys-logo.jpg',
+	companyHeader: 'Senior Systems Engineer',
+	companyName: 'Infosys Ltd',
+	skills: [
+		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+		'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
+		'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+	],
+	started: 'Dec 2017',
+	ended: 'Jan 2021',
+	projects: [
+		'Worked across different domains like Telecom, Banking, Financial services as a fullstack developer/ UI Developer, implemented new features and fixed existing bugs in the application, Did Testing for new/existing built activity for various application related projects.',
+	],
+};
+
+var obj2 = {
+	companyLogo:
+		'https://upload.wikimedia.org/wikipedia/en/d/d2/Quest_Global_logo.svg',
+	companyHeader: 'FrontEnd Developer',
+	companyName: 'Quest Global',
+	skills: [
+		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+		'https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+	],
+	started: 'Jan 2021',
+	ended: 'Jul 2021',
+	projects: [
+		'Working on the cascade application for Apple client for their IS&T project as a front end developer. Handling the implementation of new and existing features.',
+	],
+};
+
+var obj3 = {
+	companyLogo:
+		'https://dynamicmedia.accenture.com/is/image/accenture/Accenture-ProBono-Consulting-XS-marquee?qlt=85&wid=1200&ts=1666695305504&fit=wrap&dpr=off',
+	companyHeader: 'Application Development Senior Analyst',
+	companyName: 'Accenture',
+	skills: [
+		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+		'https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
+		'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+	],
+	started: 'July 2021',
+	ended: 'Present',
+	projects: [
+		'Currently working as a ReactJs developer for multiple clients across different domains like FMCG, Automotive, Aerospace, handling compleyte UI activities including requirement gathering, development, testing and maintaining.',
+	],
+};
+
 function Experience({}: Props) {
 	return (
 		<motion.div
@@ -22,9 +81,9 @@ function Experience({}: Props) {
 				Experience
 			</h3>
 			<div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thin scrollbar-thumb-[#F7AB0A]/80'>
-				<ExperienceCard />
-				<ExperienceCard />
-				<ExperienceCard />
+				<ExperienceCard {...obj1} />
+				<ExperienceCard {...obj2} />
+				<ExperienceCard {...obj3} />
 			</div>
 		</motion.div>
 	);

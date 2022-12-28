@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import shivamImg from '../public/shivamshahcover.jpg';
 
 type Props = {};
 
@@ -27,7 +28,7 @@ function About({}: Props) {
 					opacity: 1,
 				}}
 				className='-mb-20 md:mb-0 mt-20 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[250px] xl:h-[300px]'
-				src='https://voilastudio.in/images/VMM11/2520.webp'
+				src={shivamImg.src}
 			/>
 
 			<div className='space-y-5 px-0 md:px-10 mt-10'>
@@ -37,15 +38,15 @@ function About({}: Props) {
 					background
 				</h4>
 				<p className='text-base'>
-					Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry's standard dummy text ever
-					since the 1500s, when an unknown printer took a galley of type and
-					scrambled it to make a type specimen book. It has survived not only
-					five centuries, but also the leap into electronic typesetting,
-					remaining essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum passages, and
-					more recently with desktop publishing software like Aldus PageMaker
-					including versions of Lorem Ipsum.
+					I’m Shivam a maker with an education in engineering in Computer
+					Science & Engineering and a passion for experimenting, learning new
+					skills and building cool things. An energetic and hardworking
+					professional having knowledge of JavaScript, ReactJs, Core Java,
+					HTML,MongoDB and MySQL with experience of 5 years and want to work in
+					a challenging environment, open to learning new skills and using new
+					systems involved in mentioned area. I have extremely good problem
+					solving skills and good knowledge of OOPs concept. I can take a bullet
+					for a plate of Chicken Biryani!
 				</p>
 			</div>
 		</motion.div>
