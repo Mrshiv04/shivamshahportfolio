@@ -39,7 +39,7 @@ var obj2 = {
 	started: 'Jan 2021',
 	ended: 'Jul 2021',
 	projects: [
-		'Working on the cascade application for Apple client for their IS&T project as a front end developer. Handling the implementation of new and existing features.',
+		'Worked on the cascade application for Apple client for their IS&T project as a front end developer. Handled the implemented new and existing features.',
 	],
 };
 
