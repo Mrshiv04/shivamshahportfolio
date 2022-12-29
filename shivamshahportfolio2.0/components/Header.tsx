@@ -29,6 +29,7 @@ function Header({}: Props) {
 					fgColor='gray'
 					bgColor='transparent'
 					target='_blank'
+					rel='noopener noreferrer'
 				/>
 
 				<SocialIcon
@@ -36,6 +37,7 @@ function Header({}: Props) {
 					fgColor='gray'
 					bgColor='transparent'
 					target='_blank'
+					rel='noopener noreferrer'
 				/>
 
 				<SocialIcon
@@ -43,6 +45,7 @@ function Header({}: Props) {
 					fgColor='gray'
 					bgColor='transparent'
 					target='_blank'
+					rel='noopener noreferrer'
 				/>
 
 				<SocialIcon
@@ -50,6 +53,7 @@ function Header({}: Props) {
 					fgColor='gray'
 					bgColor='transparent'
 					target='_blank'
+					rel='noopener noreferrer'
 				/>
 			</motion.div>
 
@@ -77,11 +81,13 @@ function Header({}: Props) {
 					bgColor='transparent'
 					url='https://drive.google.com/file/d/11wRFeuU06YvvdTz_CnAS_VZ4WgTrcaRM/view?usp=share_link'
 					target={'_blank'}
+					rel='noopener noreferrer'
 				/>
 				<p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
 					<a
 						href='https://drive.google.com/file/d/11wRFeuU06YvvdTz_CnAS_VZ4WgTrcaRM/view?usp=share_link'
 						target={'_blank'}
+						rel='noopener noreferrer'
 					>
 						Download CV
 					</a>

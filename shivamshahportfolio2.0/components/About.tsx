@@ -33,12 +33,12 @@ function About({}: Props) {
 
 			<div className='space-y-5 px-0 md:px-10 mt-10'>
 				<h4>
-					Here's a{' '}
-					<span className='underline decoration-[#F7AB0A]/50'>little</span>{' '}
+					Here&apos;s a
+					<span className='underline decoration-[#F7AB0A]/50'> little </span>
 					background
 				</h4>
 				<p className='text-base'>
-					I’m Shivam a maker with an education in engineering in Computer
+					I&apos;m Shivam a maker with an education in engineering in Computer
 					Science & Engineering and a passion for experimenting, learning new
 					skills and building cool things. An energetic and hardworking
 					professional having knowledge of JavaScript, ReactJs, Typescript,

@@ -61,8 +61,8 @@ const ExperienceCard: FC<IProps> = ({
 				</p>
 
 				<ul className='list-disc ml-5 text-md'>
-					{projects.map((project: any) => {
-						return <li>{project}</li>;
+					{projects.map((project: any, index: any) => {
+						return <li key={index}>{project}</li>;
 					})}
 				</ul>
 			</div>
