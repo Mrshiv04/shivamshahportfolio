@@ -38,15 +38,13 @@ function About({}: Props) {
 					background
 				</h4>
 				<p className='text-base'>
-					I&apos;m Shivam a maker with an education in engineering in Computer
-					Science & Engineering and a passion for experimenting, learning new
-					skills and building cool things. An energetic and hardworking
-					professional having knowledge of JavaScript, ReactJs, Typescript,
-					HTML, CSS, MySQL and Redux with experience of 5 years and want to work
-					in a challenging environment, open to learning new skills and using
-					new systems involved in mentioned area. I have extremely good problem
-					solving skills and good knowledge of OOPs concept. I can take a bullet
-					for a plate of Chicken Biryani!
+					My name is Shivam Shah, I&apos;m a Front End Engineer based in Kolkata
+					☀️. I describe myself as a passionate developer who loves coding, open
+					source, and the web platform ❤️. Aside from my job, I like to create
+					and contribute to open source projects. That helps me to learn a ton
+					of new stuff, grow as a developer and support other open source
+					projects. Also I enjoy creating websites 💻. In my free time you can
+					find me at the gym 🏋️‍♂️ or riding motorcycle 🏍️ around the city.
 				</p>
 			</div>
 		</motion.div>
