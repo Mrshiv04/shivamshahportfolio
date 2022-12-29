@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Skill from './Skill';
+import sqllogo from '../public/mysqllogo.png';
 
 type Props = {};
 
 var js = {
 	source:
-		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
 	rating: '85',
 };
 
@@ -34,8 +35,7 @@ var css = {
 };
 
 var mysql = {
-	source:
-		'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
+	source: 'https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg',
 	rating: '75',
 };
 

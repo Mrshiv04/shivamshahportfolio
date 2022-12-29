@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
+import shivamshahpic from '../public/shivamshahprofile.jpg';
 
 type Props = {};
 
@@ -21,7 +22,7 @@ function Hero({}: Props) {
 			<BackgroundCircles />
 			<img
 				className='relative rounded-full h-32 w-32 mx-auto object-cover'
-				src='https://cdn104.picsart.com/203450978001202.png?type=webp&to=min&r=240'
+				src={shivamshahpic.src}
 				alt='coverpicture'
 			/>
 			<div className='z-20'>

@@ -8,7 +8,7 @@ function Project({}: Props) {
 		{
 			name: 'Netflix Clone',
 			source:
-				'https://www.passionateinmarketing.com/wp-content/uploads/2022/08/netflix.jpg',
+				'https://thedailyguardian.com/wp-content/uploads/2022/09/Netflix.jpg',
 			details:
 				'Created a Netflix clone where contents are changed dynamic ally every time you refresh or open the application. The application looks almost same as that of the original Netflix application.',
 			link: 'https://netflix-clone-ac8bc.web.app/',
@@ -39,7 +39,8 @@ function Project({}: Props) {
 		},
 		{
 			name: 'AirBnB Clone',
-			source: 'https://icaninfotech.com/wp-content/uploads/2021/06/Airbnb.png',
+			source:
+				'https://assets.theedgemarkets.com/airbnb-12354_reuters.jpg?FbalSo2FU.eGwTqo9O7nETHDm7x.dHRW',
 			details:
 				'Created an AirBnB replica using react.JS , material UI, HTML/CSS which has the exact look and feel of the original website.',
 			link: 'https://shivam-airbnb.web.app/',
