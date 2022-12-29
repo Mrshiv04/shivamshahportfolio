@@ -9,9 +9,9 @@ var obj1 = {
 	companyHeader: 'Senior Systems Engineer',
 	companyName: 'Infosys Ltd',
 	skills: [
-		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
 		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-		'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
+		'https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg',
 		'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg',
 		'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
 		'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
@@ -29,7 +29,7 @@ var obj2 = {
 	companyHeader: 'FrontEnd Developer',
 	companyName: 'Quest Global',
 	skills: [
-		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
 		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
 		'https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg',
 		'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
@@ -49,7 +49,7 @@ var obj3 = {
 	companyHeader: 'Application Development Senior Analyst',
 	companyName: 'Accenture',
 	skills: [
-		'https://sujanbyanjankar.com.np/wp-content/uploads/2019/09/javascript.png',
+		'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
 		'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
 		'https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg',
 		'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
