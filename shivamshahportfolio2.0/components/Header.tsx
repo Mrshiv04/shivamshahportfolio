@@ -79,13 +79,13 @@ function Header({}: Props) {
 					network='sharethis'
 					fgColor='gray'
 					bgColor='transparent'
-					url='https://drive.google.com/file/d/12DJdDeiBgpsgLYDUJaW6lolBDYMBKrwh/view?usp=share_link'
+					url='https://drive.google.com/file/d/1RVXS7AdnKgU12FV8dFFVk_QG85ZABrf-/view?usp=sharing'
 					target={'_blank'}
 					rel='noopener noreferrer'
 				/>
 				<p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
 					<a
-						href='https://drive.google.com/file/d/12DJdDeiBgpsgLYDUJaW6lolBDYMBKrwh/view?usp=share_link'
+						href='https://drive.google.com/file/d/1RVXS7AdnKgU12FV8dFFVk_QG85ZABrf-/view?usp=sharing'
 						target={'_blank'}
 						rel='noopener noreferrer'
 					>

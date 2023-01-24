@@ -30,12 +30,12 @@ function Project({}: Props) {
 			link: 'https://shivam-linkedin-clone.web.app/',
 		},
 		{
-			name: 'Amazon Clone',
+			name: 'Covid 19 Tracker',
 			source:
-				'https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/828x552/filters:focal(1020x680:1021x681):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/13443481/acastro_181114_1777_amazon_hq2_0006.jpg',
+				'https://media.npr.org/assets/img/2020/04/13/jhu_custom-a562a0534ff35aa108566d5e2bc58ad3cec81645-s1200-c85.webp',
 			details:
-				'Created an Amazon website clone having functionality of selecting items from catalogue, checking out with payment window , login and logout, and even creating a new account.',
-			link: 'https://shivam-amazn-clone.web.app/',
+				'Created Covid19 tracker, show details of number of affected, deaths and recovered country wise in real-time.',
+			link: 'https://covid20-tracker.web.app/',
 		},
 		{
 			name: 'AirBnB Clone',
