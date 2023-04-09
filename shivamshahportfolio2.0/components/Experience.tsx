@@ -25,7 +25,7 @@ var obj1 = {
 
 var obj2 = {
 	companyLogo:
-		'https://upload.wikimedia.org/wikipedia/en/d/d2/Quest_Global_logo.svg',
+		'https://www.quest-global.com/wp-content/themes/quest/assets/images/footer-logo.png',
 	companyHeader: 'FrontEnd Developer',
 	companyName: 'Quest Global',
 	skills: [
